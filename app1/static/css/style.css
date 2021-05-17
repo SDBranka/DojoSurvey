@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+#wrapper {
+    width: 900px;
+    margin: 100px auto;
+    padding: 15px;
+    background-color: rgb(222, 207, 236);
+}
+
+#wrapper p, #wrapper input, #wrapper select {
+    padding: 0px 0px 10px 15px;
+    font-size: 24px;
+}
+
+#name {
+    margin-left: 485px;
+}
+
+#location {
+    margin-left: 455px;
+    width: 273px;
+}
+
+#favLang {
+    margin-left: 415px;
+    width: 271px;
+}
+
+#wrapper textarea {
+    margin: 0px 0px 0px 15px;
+}
+
+#btn {
+    margin: 15px 0px 0px 830px;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

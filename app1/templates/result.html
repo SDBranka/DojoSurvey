@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dojo Survey Result</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+        <!-- <link rel="stylesheet" href="../static/css/style2.css"> -->
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Submitted Info</h1>
+            <p>Name: <span id="nameVal">{{name}}</span></p>
+            <p>Dojo Location: <span id="locVal">{{location}}</span></p>
+            <p>Favorite Language: <span id="langVal">{{favLang}}</span></p>
+            <p>Preffered Travel: <span id="travVal">{{travel}}</span></p>
+            <p>Favorite Music: <span id="musVal">{{music}}</span></p>
+            <div id="comBlock">
+                <p>Comment: </p>
+                <span id="comVal">{{comment}}</span>
+            </div>
+            <button id="btn"><a href="/">Go Back</a></button>
+        </div> <!--end wrapper-->
+
+
+
+
+
+    <!--  FOR STYLING-->
+        <!-- <div id="wrapper">
+            <h1>Submitted Info</h1>
+            <p>Name: <span id="nameVal">ASDFSF ASDFSAF</span></p>
+            <p>Dojo Location: <span id="locVal">Chicago</span></p>
+            <p>Favorite Language: <span id="langVal">JavaScript</span></p>
+            <p>Preffered Travel: <span id="travVal">Bicycle</span></p>
+            <p>Favorite Music: <span id="musVal">Folk</span></p>
+            <div id="comBlock">
+                <p>Comment: </p>
+                <span id="comVal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas rem reprehenderit eum nam praesentium?
+                </span>
+            </div>
+            
+            <button id="btn">Go Back</button>
+        </div>  -->
+    </body>
+</html>
